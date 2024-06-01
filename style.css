@@ -1,0 +1,143 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin: 20px 500px;
+}
+.first-container{
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    height: 410px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    border: 1px solid #DBDBDB;
+    width: 258px;
+    height: 20px;
+    padding: 9px 0px 7px 8px;
+    background: #FAFAFA;
+    /* margin: 4px 0; */
+    outline: none;
+}
+button{
+   width: 268px;
+   height: 32px;
+   background: #4CB5F9;
+   border: 1px solid #4CB5F9;
+   border-radius: 8px;
+   margin: 10px 0px;
+   color: white;
+   cursor: pointer;
+}
+.or{
+    margin: 10px 0;
+    display: flex;
+    font-size: 14px;
+}
+h1{
+    font-size: 40px;
+    margin: 40px 0px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+/* .right-border-line,.left-border-line{
+    border-top: 1px solid black;
+    width: 120px;
+    margin: 40px 0px;
+}
+.right-border-line{
+    margin-right: 10px;
+}
+.left-border-line{
+    margin-left: 10px;
+} */
+hr{
+    width: 110px;
+    height: 0;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.forgot{
+    text-align: center;
+    font-size: 14px;
+}
+.facebook div p {
+    color: #725185;
+    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
+    /* margin: 0 6px; */
+
+}
+
+.second-container{
+    border: 1px solid #DBDBDB;
+    width: 350px;
+    height: 35px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.facebook div{
+    margin: 0 4px;
+}
+.second-container p{
+    margin: 8px 0;
+}
+.sign{
+    color: #00B2F9;
+    font-weight: 600;
+    margin: 0 6px;
+}
+.get-the-app{
+    text-align: center;
+}
+input:focus{
+    border: 2px solid gray;
+}
+
+.playstore{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+}
+.playstore-micro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.micro-box{
+    font-size: 10px;
+}
+.microsoft{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+}
+.play{
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+    cursor: pointer;
+}
+.play-box{
+    width: 150px;
+}
+.micro-box{
+    width: 110px;
+}
